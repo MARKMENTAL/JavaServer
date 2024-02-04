@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaServer README</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #FF4500, #2E2E2E);
+            color: white;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>JavaServer README</h1>
+        <p>This document serves as the README for the JavaServer program, a lightweight HTTP server implemented in Java. This server is capable of serving static files from the directory it's run in, and can be easily deployed on any system with Java installed.</p>
+        <h2>Running JavaServer</h2>
+        <p>A pre-compiled JAR file, <code>JavaServer.jar</code>, is included for easy deployment. To run the server, use the following command:</p>
+        <pre><code>java -jar JavaServer.jar &lt;port number&gt;</code></pre>
+        <p>Replace <code>&lt;port number&gt;</code> with the port you wish the server to listen on.</p>
+        <h2>Development Environment</h2>
+        <p>This server was developed on <strong>Ubuntu 23.10</strong> running on the <strong>s390x</strong> architecture, emulated in QEMU. This setup demonstrates the server's compatibility with a wide range of environments, including emulated ones, showcasing its versatility and scalability.</p>
+        <h2>Features</h2>
+        <ul>
+            <li>Serves static files from its running directory</li>
+            <li>Handles concurrent client connections using threading</li>
+            <li>Simple and lightweight design, easy to extend</li>
+        </ul>
+        <h2>Compatibility</h2>
+        <p>The server is designed to run on any system with Java installed, making it widely compatible across different platforms. Whether you're using a traditional x86 setup or exploring the capabilities of s390x mainframes emulated in QEMU, JavaServer offers a reliable solution for your HTTP serving needs.</p>
+    </div>
+</body>
+</html>
+
